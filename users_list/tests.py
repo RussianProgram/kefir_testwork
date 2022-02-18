@@ -5,7 +5,7 @@ from rest_framework import status
 from django.urls import reverse
 
 """
-Небольно покрытие тестами функций юзера и анонимного юзера
+Небольшое покрытие тестами функций юзера и анонимного юзера
 """
 class AnonymousAndUserTest(APITestCase):
     def setUp(self) -> None:
